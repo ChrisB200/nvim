@@ -2,6 +2,9 @@ return require('packer').startup(function(use)
     -- Packer can manage itself
     use 'wbthomason/packer.nvim'
 
+    -- Live Server Plugin
+    use 'barrett-ruth/live-server.nvim'
+
     -- Command Auto complete
     use 'gelguy/wilder.nvim'
 

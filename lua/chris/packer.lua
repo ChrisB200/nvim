@@ -24,6 +24,9 @@ return require('packer').startup(function(use)
     -- terminal
     use "akinsho/toggleterm.nvim"
 
+    -- context aware hovers
+    use "lewis6991/hover.nvim"
+
     -- The breadcrumbs
     use({
         "utilyre/barbecue.nvim",
